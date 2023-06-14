@@ -7,7 +7,7 @@ from numpy import NaN, nan             #é usada para realizar cálculos Nan = v
 
 #*****************************************************//Código leandro e daniel//********************************************************
 
-linhas = pd.read_csv("https://raw.githubusercontent.com/arthur-augusto/dados-olimpiadas-rio-2016/main/athletes.csv", sep=",")  #usa o pandas para abrir a tabela
+linhas = pd.read_csv("https://raw.githubusercontent.com/artur-jack/Dashboard-APC-2021/main/athletes.csv", sep=",")  #usa o pandas para abrir a tabela
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
