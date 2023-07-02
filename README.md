@@ -11,32 +11,26 @@ The dashboard made is intended to show the user different data about the 2016 Ol
 ### Requisitos
 - python 3.x
 - pip (If you are using the latest version of Python, _pip_ is probably already installed by default)
-- virtualenv
-
-If you don't have virtualenv installed, use the following command:
-
-```terminal
-$ pip install virtualenv
-```
 
 ### Uso
 
-Para rodar localmente é preciso entrar na virtualenv com o comando:
+Para rodar localmente é preciso instalar algumas bibliotecas que serão listadas com os seguintes comandos:
 
 ```terminal
-$ source venv/bin/activate
+$ pip install plotly
 ```
-OBS: If you want to exit virtualenv once it is activated, perform the following command:
-
 ```terminal
-$ deactivate
+$ pip install pandas
 ```
-
-Once this is done, we can now actually run the project with the following command:
-
 ```terminal
-$ python -i olympics2016-dashboard/PyProject.py    
+$ pip install dash
 ```
+```terminal
+$ pip install numpy
+```
+
+Once this is done, we can now actually run the project!
+
 ## Screenshots
 
 In this graph, it is shown about the gold medals of all countries that participated in the Olympics:

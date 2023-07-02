@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import plotly.graph_objects as go      #fazer os gráficos  
 import pandas as pd                    #abrir e manipular a tabela
 import dash                            #faz abrir uma pagina html pelo python       #O html é uma Linguagem de Marcação de Hipertexto
